@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Барбершоп. Магазин</title>
+</head>
+<body>
+ 
+    <nav>
+      <div class="wrapper-center">
+        <a href="index.html" class="logo">
+          <img src="http://placehold.it/100x100" alt="logo">
+        </a>
+        <ul class="header-menu">
+          <li><a href="#">ИНФОРМАЦИЯ</a></li>
+          <li><a href="#">НОВОСТИ</a></li>
+          <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+          <li><a>МАГАЗИН</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </ul>
+        <a class="login" href="#">ВХОД</a>
+      </div>
+    </nav>
+   
+    <div class="wrapper-center">
+      <header>
+        <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+        <ul class="breadcrumbs">
+          <li><a href="index.html">ГЛАВНАЯ</a></li>
+          <li><a href="#">МАГАЗИН</a></li>
+          <li><a class="breadcrumbs-selected">СРЕДСТВА ДЛЯ УХОДА</a></li>
+        </ul>
+      </header>
+      
+      <section class="filter">
+        <form action="#" method="get">
+          <div class="filter-block">
+            <h2>ПРОИЗВОДИТЕЛИ:</h2>
+            <input type="checkbox" id="Baxter-of-California" name="filter-brand" value="Baxter of California" checked>
+            <label for="Baxter-of-California">BAXTER OF CALIFORNIA</label>
+            <input type="checkbox" id="Mr-Natty" name="filter-brand" value="Mr Natty">
+            <label for="Mr-Natty">MR NATTY</label>
+            <input type="checkbox" id="Suavecito" name="filter-brand" value="Suavecito" checked>
+            <label for="Suavecito">SUAVECITO</label>
+            <input type="checkbox" id="Malin-Goetz" name="filter-brand" value="Malin+Goetz">
+            <label for="Malin-Goetz">MALIN+GOETZ</label>
+            <input type="checkbox" id="Murray’s" name="filter-brand" value="Murray’s">
+            <label for="Murray’s">MURRAY'S</label>
+            <input type="checkbox" id="American-Crew" name="filter-brand" value="American-Crew" checked>
+            <label for="American Crew">AMERICAN CREW</label>
+          </div>
+          <div class="filter-block">
+            <h2>ГРУППЫ ТОВАРОВ:</h2>
+            <input type="radio" id="razor" name="product" value="razor">
+            <label for="razor">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+            <input type="radio" id="care" name="product" value="care" checked>
+            <label for="care">CРЕДСТВА ДЛЯ УХОДА</label>
+            <input type="radio" id="accessories" name="product" value="accessories">
+            <label for="accessories">АКСЕССУАРЫ</label>
+          </div>
+          <a href="#">ПОКАЗАТЬ</a>
+        </form>
+      </section>
+      
+      <section class="catalog">
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Набор для путешествий «BAXTER OF CALIFORNIA»">
+          <h1>Набор для путешествий «BAXTER OF CALIFORNIA»</h1>
+          <div class="item-price">
+            <span> 2900 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Увлажняющий кондиционер «BAXTER OF CALIFORNIA»">
+          <h1>Увлажняющий кондиционер «BAXTER OF CALIFORNIA»</h1>
+          <div class="item-price">
+            <span> 750 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Гель для волос «SUAVECITO»">
+          <h1>Гель для волос «SUAVECITO»</h1>
+          <div class="item-price">
+            <span> 290 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Глина для укладки волос «AMERICAN CREW»">
+          <h1>Глина для укладки волос «AMERICAN CREW»</h1>
+          <div class="item-price">
+            <span> 500 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Гель для волос «AMERICAN CREW»">
+          <h1>Гель для волос «AMERICAN CREW»</h1>
+          <div class="item-price">
+            <span> 300 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+        <article class="catalog-item">
+          <img src="http://placehold.it/100x150" alt="Набор для бритья «BAXTER OF CALIFORNIA»">
+          <h1>Набор для бритья «BAXTER OF CALIFORNIA»</h1>
+          <div class="item-price">
+            <span> 3900 РУБ.</span>
+            <a href="#" class="catalog-btn">КУПИТЬ</a>
+          </div>
+        </article>
+      </section>
+      
+      <ul class="catalog-pages">
+        <li><a href="#" class="pages-btn">1</a></li>
+        <li><a class="pages-btn pages-selected">2</a></li>
+        <li><a href="" class="pages-btn">3</a></li>
+        <li><a href="" class="pages-btn">4</a></li>
+      </ul>
+    </div>
+  
+  <footer>
+    <div class="wrapper-center">
+      <div class="footer-adress">
+        <p>БАРБЕРШОП «БОРОДИНСКИЙ»
+        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+        </p>
+        <a href="#">КАК НАС НАЙТИ?</a>
+        <span>ТЕЛЕФОН: +7 (495) 666&#x2012;02&#x2012;66</span>
+      </div>
+
+      <div class="footer-social">
+        <span>ДАВАЙТЕ ДРУЖИТЬ!</span>
+        <a href="#" class="vk">Вконтакте</a>
+        <a href="#" class="fb">Facebook</a>
+        <a href="#" class="ig">Instagramm</a>
+      </div>
+
+      <div class="fedback-dev">
+        <span>РАЗРАБОТАНО:</span>
+        <a href="#">HTMLACADEMY.RU</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
