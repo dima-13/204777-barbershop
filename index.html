@@ -2,11 +2,125 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Барбершоп</title>
+    <title>Барбершоп</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <nav>
+      <div class="wrapper-center">
+        <ul class="header-menu">
+          <li><a href="#">ИНФОРМАЦИЯ</a></li>
+          <li><a href="#">НОВОСТИ</a></li>
+          <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+          <li><a href="#">МАГАЗИН</a></li>
+          <li><a href="#">КОНТАКТЫ</a></li>
+        </ul>
+        <a class="login" href="#">ВХОД</a>
+      </div>
+    </nav>
+      
+    <div class="wrapper-center">
+      <header>
+        <img src="http://placehold.it/100x100" alt="logo" class="index-logo">
+        <div class="promo-advantages">
+          <h2>БЫСТРО</h2>
+          <span class="header-shapes"></span>
+          <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ &ndash; СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+          </p>
+        </div>
+        <div class="promo-advantages">
+          <h2>КРУТО</h2>
+          <span class="header-shapes"></span>
+          <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+          МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+          ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+          </p>
+        </div>
+        <div class="promo-advantages">
+          <h2>ДОРОГО</h2>
+          <span class="header-shapes"></span>
+          <p>НАШИ МАСТЕРА &ndash; ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+          </p>
+        </div>
+      </header>
+    
+      
+      <div class="index-info">
+        <section class="info-block">
+          <h1>НОВОСТИ</h1>
+          <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+          </p>
+          <span>11 января</span>
+          <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+          <span>18 января</span>
+          <a class="info-btn" href="#">ВСЕ НОВОСТИ</a>
+        </section>
+        
+        <section class="info-block">
+          <h1>ФОТОГАЛЕРЕЯ</h1>
+          <img src="http://placehold.it/100x100" alt="photo galery">
+          <ul class="nav-section">
+            <li><a class="info-btn" href="#">НАЗАД</a></li>
+            <li><a class="info-btn" href="#">ВПЕРЁД</a></li>
+          </ul>
+        </section>
+      </div>
+      
+      <div class="index-info">
+        <section class="info-block">
+          <h1>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
+          <p>БАРБЕРШОП «БОРОДИНСКИЙ»
+          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8
+          ТЕЛЕФОН: +7 (495) 666&#x2012;02&#x2012;66
+          </p>
+          <p>ВРЕМЯ РАБОТЫ: 
+          ПН &ndash; ПТ: С 10:00 ДО 22:00
+          СБ &ndash; ВС: С 10:00 ДО 19:00
+          </p>
+          <ul class="nav-section">
+            <li><a class="info-btn" href="#">КАК ПРОЕХАТЬ</a></li>
+            <li><a class="info-btn" href="#">ОБРАТНАЯ СВЯЗЬ</a></li>
+          </ul>
+        </section>
+        
+        <section class="info-block">
+          <form action="#" method="get">
+            <h1>ЗАПИСАТЬСЯ</h1>
+            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+            </p>
+            <input type="text" name="date" placeholder="ДАТА">
+            <input type="text" name="time" placeholder="ВРЕМЯ">
+            <input type="text" name="name" placeholder="ВАШЕ ИМЯ">
+            <input type="text" name="tel" placeholder="ТЕЛЕФОН">
+            <input type="submit" name="submit" value="ОТПРАВИТЬ">
+          </form>
+        </section>
+      </div>
+    </div> 
+      
+      <footer>
+        <div class="wrapper-center">
+          <div class="footer-adress">
+            <p>БАРБЕРШОП «БОРОДИНСКИЙ»
+            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+            </p>
+            <a href="#">КАК НАС НАЙТИ?</a>
+            <span>ТЕЛЕФОН: +7 (495) 666&#x2012;02&#x2012;66</span>
+          </div>
 
+          <div class="footer-social">
+            <span>ДАВАЙТЕ ДРУЖИТЬ!</span>
+            <a href="#" class="vk">Вконтакте</a>
+            <a href="#" class="fb">Facebook</a>
+            <a href="#" class="ig">Instagramm</a>
+          </div>
+
+          <div class="fedback-dev">
+            <span>РАЗРАБОТАНО:</span>
+            <a href="#">HTMLACADEMY.RU</a>
+          </div>
+        </div>
+      </footer> 
+   
   </body>
 </html>
