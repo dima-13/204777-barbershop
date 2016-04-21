@@ -6,31 +6,35 @@
 </head>
 <body>
  
-    <nav>
+    <header>
       <div class="wrapper-center">
         <a href="index.html" class="logo">
           <img src="http://placehold.it/100x100" alt="logo">
         </a>
-        <ul class="header-menu">
-          <li><a href="#">ИНФОРМАЦИЯ</a></li>
-          <li><a href="#">НОВОСТИ</a></li>
-          <li><a href="#">ПРАЙС-ЛИСТ</a></li>
-          <li><a>МАГАЗИН</a></li>
-          <li><a href="#">КОНТАКТЫ</a></li>
-        </ul>
-        <a class="login" href="#">ВХОД</a>
+        <nav>
+          <ul class="header-menu">
+            <li><a href="#">ИНФОРМАЦИЯ</a></li>
+            <li><a href="#">НОВОСТИ</a></li>
+            <li><a href="#">ПРАЙС-ЛИСТ</a></li>
+            <li><a>МАГАЗИН</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <div class="login">
+          <a class="login-button" href="#">ВХОД</a>
+        </div>
       </div>
-    </nav>
+    </header>
    
     <div class="wrapper-center">
-      <header>
+      <div class="breadcrumbs">
         <h1>СРЕДСТВА ДЛЯ УХОДА</h1>
-        <ul class="breadcrumbs">
+        <ul>
           <li><a href="index.html">ГЛАВНАЯ</a></li>
           <li><a href="#">МАГАЗИН</a></li>
           <li><a class="breadcrumbs-selected">СРЕДСТВА ДЛЯ УХОДА</a></li>
         </ul>
-      </header>
+      </div>
       
       <section class="filter">
         <form action="#" method="get">
@@ -58,7 +62,7 @@
             <input type="radio" id="accessories" name="product" value="accessories">
             <label for="accessories">АКСЕССУАРЫ</label>
           </div>
-          <a href="#">ПОКАЗАТЬ</a>
+          <input type="submit" name="submit" value="ПОКАЗАТЬ">
         </form>
       </section>
       
@@ -116,8 +120,8 @@
       <ul class="catalog-pages">
         <li><a href="#" class="pages-btn">1</a></li>
         <li><a class="pages-btn pages-selected">2</a></li>
-        <li><a href="" class="pages-btn">3</a></li>
-        <li><a href="" class="pages-btn">4</a></li>
+        <li><a href="#" class="pages-btn">3</a></li>
+        <li><a href="#" class="pages-btn">4</a></li>
       </ul>
     </div>
   
