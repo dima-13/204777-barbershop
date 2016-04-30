@@ -1,11 +1,12 @@
+
 body {
   font-size: 14px;
   line-height: 24px;
   color: #000000;
   font-weight: bold;
   font-family: PT Sans Narrow, sans-serif;
+  background: #242424 url(/img/index-background.jpg) no-repeat ;
 }
-
 
 h1 {
   font-size: 30px;
@@ -17,4 +18,553 @@ h2 {
   font-size: 30px;
   line-height: 42px;
   color: #000000;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.wrapper-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000000;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 0px;
+}
+
+a {
+  color: #ffffff;
+}
+
+.header-menu li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.header-menu li a {
+  display: block;
+  padding: 25px 0px;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+.login {
+  float:right;
+  vertical-align: top;
+}
+
+.login-button {
+  display: block;
+  vertical-align: top;
+  padding: 25px 20px;
+  padding-left: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  color:#ffffff;
+  text-decoration: none;
+}
+
+.promo {
+  padding-top: 60px;
+}
+
+.index-logo {
+  display: block;
+  width: 368px;
+  margin: 0 auto;
+}
+
+.promo-advantages {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin-right: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.promo-advantages:last-child {
+  margin-right: 0px;
+}
+
+.promo-advantages h2 {
+  margin: 0px;
+  padding-bottom: 50px;
+  color: #f7f4f1;
+}
+
+.index-info {
+  padding: 50px 80px;
+  background-color: #f7f4f1;
+  margin-bottom: 35px;
+}
+
+.info-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 380px;
+  margin-right: 90px;
+}
+
+.info-block:last-child {
+  width: 300px;
+  margin-right: 0px;
+}
+
+.info-block h2 {
+  margin: 0px;
+}
+
+.info-block ul {
+  padding-top: 25px;
+}
+
+.info-block li {
+  margin-bottom: 30px;
+}
+
+span {
+  display: block;
+}
+
+.info-block img {
+  margin-top: 25px;
+  border: 7px solid #ffffff;
+}
+
+ul.nav-section {
+  margin-top: 25px;
+  padding: 0px;
+}
+
+.nav-section li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+.nav-section li:last-child {
+  margin-right: 0px;
+}
+
+.info-btn {
+  box-sizing: border-box;
+  display: block;
+  vertical-align: top;
+  width: 140px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+form p {
+margin-bottom: 25px;
+}
+
+input:nth-child(2n+1) {
+  margin-right: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+  border: 2px solid #000000;
+}
+
+input[type="submit"] {
+  width: 100%;
+  margin-bottom: 0px;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 45px;
+  color: #ffffff;
+  background-color: #282828;
+}
+
+.footer-adress,
+.footer-social,
+.fedback-dev {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 90px;
+}
+
+.footer-adress {
+  width: 310px; 
+}
+
+.footer-adress p {
+  margin: 0px;
+}
+
+.footer-social,
+.fedback-dev {
+  width: 141px;
+  text-align: center;
+}
+
+.fedback-dev {
+  margin-left: 160px;
+  margin-right: 0px;
+}
+.footer-social a {
+  display: inline-block;
+  vertical-align: top;
+  width: 43px;
+  height: 43px;
+  margin-right: 6px;
+  margin-top: 22px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.footer-social a:last-child {
+  margin-right: 0px;
+}
+
+.fedback-dev a {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 43px;
+  margin-top: 22px;
+  text-align: center;
+  padding-top:10px;
+  text-decoration: none;
+  background-color: #000000;
+}
+
+/*-------------------------barbershop-shop.html-------------*/
+
+.logo img {
+  display: inline-block;
+  vertical-align: top;
+  padding: 23px 0px;
+  padding-right: 35px;
+}
+
+.breadcrumbs h1 {
+  margin: 0px;
+  padding-top: 55px;
+  padding-bottom: 25px;
+}
+
+.breadcrumbs li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40px;
+}
+
+.breadcrumbs a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+}
+
+a.breadcrumbs-selected {
+  color: #aba9a7;
+}
+
+.filter {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+
+.filter-block h2 {
+  margin: 0px;
+  padding-top: 55px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter-block input {
+  display: block;
+}
+
+.filter input[type="submit"] {
+  box-sizing: border-box;
+  width: 110px;
+  margin: 55px 0px;
+  margin-bottom: 0px;
+  padding-top: ;
+  border: none;
+}
+
+.catalog {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 720px;
+  padding-top: 60px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.catalog-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding-bottom: 15px;
+}
+
+.catalog-item h1 {
+  margin-left: 15px; 
+  margin-right: 15px; 
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.item-price {
+  margin-left: 15px; 
+  margin-right: 15px;
+}
+
+.item-price span {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 110px;
+  padding:15px 25px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+
+.item-price a {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 80px;
+  padding: 15px 20px;
+  text-decoration: none;
+  background-color: #000000;  
+}
+
+.catalog-item:nth-child(3),
+.catalog-item:nth-child(6) {
+  margin-right: 0px;
+}
+
+.catalog-pages {
+  margin-top: 45px;
+}
+
+.catalog-pages li {
+  display: inline-block;
+  margin-right: 7px;
+}
+
+.pages-btn {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 43px;
+  height: 43px;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  background-color: #000000;
+}
+
+.pages-selected {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/*---------------------- barbershop-item.html------------------------------*/
+
+
+.item-images {
+  display: inline-block;
+  vertical-align: top;
+  width: 460px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.item-images>img:first-child {
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+.item-images div>img {
+  display: inline-block;
+  vertical-align: top;
+  width: 140px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+}
+
+.item-images div>img:last-child {
+  margin-right: 0px;
+}
+
+.descriprion {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 480px;
+  padding-top: 75px;
+  padding-left: 90px;
+}
+
+.available,
+.item-code {
+  display: inline-block;
+  margin-bottom: 33px
+}
+
+.item-code {
+  margin-left: 175px;
+}
+
+.item-code {
+  color: #aeaeae;
+}
+
+.descriprion p {
+  margin: 0px;
+  margin-bottom: 38px;
+}
+
+.descriprion .item-price {
+  margin: 0px;
+  margin-bottom: 65px;
+}
+
+.descriprion .item-price span {
+  width: auto;
+  padding: 10px 30px; 
+}
+
+a.catalog-btn {
+  padding: 10px 19px;
+  width: auto;
+}
+
+.item-set {
+  margin-top: 32px; 
+  padding-left: 20px;
+}
+
+.item-set li {
+  margin-bottom: 5px;
+}
+
+
+/*--------------------------barbershop-price--------------------------------*/
+
+.banner {
+  padding-top: 55px;
+  padding-bottom: 70px;
+}
+
+.banner h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.banner span {
+  display: inline-block;
+  width: 160px;
+  border-bottom: 2px solid #000000;
+}
+
+.price-info-block {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 380px;
+  margin-right: 100px;
+}
+
+.price-info-block:last-child {
+  margin-right: 0px;
+}
+
+.price-info-block h2 {
+  margin: 0px;
+  margin-bottom: 32px;
+  width: 240px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.price-info-block ul {
+  padding-left: 20px;
+}
+
+.price-info-block li {
+  margin-bottom: 15px;
+}
+
+.price-info-block table {
+  width: 460px;
+  border-collapse: collapse;
+}
+
+.price-info-block table td {
+  width: 230px;
+  padding: 8px 19px;
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.price-info-block table td:first-child {
+  text-align: left;
+}
+
+.price-info h2 {
+  margin: 0px;
+  margin-bottom: 31px;
+  padding-top: 30px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.price-info p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px;
+  width: 382px;
+  margin-right: 100px; 
+}
+
+.price-info p:last-child {
+  margin-right: 0px;
+}
+
+.price-info:last-child  {
+  margin-bottom: 80px;
 }
